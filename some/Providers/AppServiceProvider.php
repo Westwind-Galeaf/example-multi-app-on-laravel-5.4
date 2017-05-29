@@ -4,7 +4,7 @@ namespace Some\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class SomeServiceProvider extends ServiceProvider
+class AppServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
