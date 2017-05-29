@@ -13,7 +13,7 @@ class SomeAppRoutingTest extends TestCase
      * @group Routing
      * @return void
      */
-    public function testExample()
+    public function testCheckRoutes()
     {
         $response = $this->get('some');
 
