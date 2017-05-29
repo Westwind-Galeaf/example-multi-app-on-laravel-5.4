@@ -177,6 +177,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Some Application Service Providers...
+         */
+        Api\Providers\AppServiceProvider::class,
+        Api\Providers\AuthServiceProvider::class,
+        Api\Providers\EventServiceProvider::class,
+        Api\Providers\RouteServiceProvider::class,
 
         /*
          * Some Application Service Providers...
